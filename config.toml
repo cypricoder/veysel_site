@@ -7,51 +7,27 @@ copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all r
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
+name = "Hugo Theme Pure"
+license = "MIT"
+licenselink = "https://github.com/xiaoheiAh/hugo-theme-pure/blob/master/LICENSE"
+description = "A powerful and pure theme for hugo~enjoy~"
+homepage = "https://xiaohei.im/"
+tags = [
+  "blog",
+  "clean",
+  "simple",
+  "dark",
+  "white",
+  "search"
+]
+features = []
+min_version = "0.57.2"
 
-[pagination]
-  paperSize = 3
+[author]
+name = "xiaoheiah"
+homepage = "https://xiaohei.im"
 
-[menu]
-
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
-
-[privacy]
-
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
-
-  [privacy.instagram]
-    disabled = false
-    simple = true
-
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
-[services]
-
-  [services.instagram]
-    disableInlineCSS = true
-
-  [services.twitter]
-    disableInlineCSS = true
+[original]
+name = "hexo-theme-pure"
+homepage = "https://blog.cofess.com"
+repo = "https://github.com/cofess/hexo-theme-pure"
